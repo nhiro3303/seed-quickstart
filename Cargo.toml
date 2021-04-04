@@ -1,0 +1,9 @@
+[package]
+name = "seed-quickstart-webpack-syakyo"
+version = "0.1.0"
+authors = ["nhiro3303 <46623286+nhiro3303@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
