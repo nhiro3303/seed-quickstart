@@ -1,9 +1,25 @@
 [package]
-name = "seed-quickstart-webpack-syakyo"
+name = "seed-quickstart-syakyo"
 version = "0.1.0"
 authors = ["nhiro3303 <46623286+nhiro3303@users.noreply.github.com>"]
 edition = "2018"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+seed = "0.8.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.18"
+
+[profile.release]
+lto = true
+opt-level = 'z'
+codegen-units = 1
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = ['-Os']
