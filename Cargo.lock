@@ -470,7 +470,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "seed-quickstart-syakyo"
+name = "seed-quickstart"
 version = "0.1.0"
 dependencies = [
  "seed",

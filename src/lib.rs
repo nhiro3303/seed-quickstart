@@ -61,6 +61,6 @@ fn view(model: &Model) -> Node<Msg> {
 // (この関数は、`index.html` にある `init` 関数から呼び出されます。)
 #[wasm_bindgen(start)]
 pub fn start() {
-    // `app` を`id = "app"` をもつ element にマウントします。
+    // `app` を`id="app"` をもつ element にマウントします。
     App::start("app", init, update, view);
 }

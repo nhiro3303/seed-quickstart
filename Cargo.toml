@@ -1,5 +1,5 @@
 [package]
-name = "seed-quickstart-syakyo"
+name = "seed-quickstart"
 version = "0.1.0"
 authors = ["nhiro3303 <46623286+nhiro3303@users.noreply.github.com>"]
 edition = "2018"
